@@ -125,6 +125,7 @@ wasmedge_add_library(wasmedgePluginWasiNN
   torch.cpp
   tfl.cpp
   ggml.cpp
+  # mlx.cpp
 )
 
 target_compile_options(wasmedgePluginWasiNN
